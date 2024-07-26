@@ -5,7 +5,7 @@ from typing import List
 from config.db import get_db, engine
 from models.todo import TodoItem
 from sqlalchemy.future import select
-from schemas.todo import TodoCreate, TodoUpdate, TodoItem as TodoItemSchema
+from schemas.todo import TodoCreate, TodoItem as TodoItemSchema
 user = APIRouter()
 # TodoItem.Base.metadata.create_all(bind=engine)
 
